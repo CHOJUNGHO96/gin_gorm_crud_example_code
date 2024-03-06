@@ -21,7 +21,7 @@ var err error
 
 // 데이터베이스 연결 설정
 func init() {
-	dsn := "host=localhost user=postgres dbname=postgres password='qhdks12#' port=5432 sslmode=disable TimeZone=Asia/Seoul"
+	dsn := "host=host user=user dbname=dbname password='password' port=5432 sslmode=disable TimeZone=Asia/Seoul"
 	db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect database")
