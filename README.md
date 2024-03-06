@@ -54,3 +54,5 @@ You can test these endpoints using tools like Postman or cURL. Here's an example
 ```sh
 curl -X POST -H "Content-Type: application/json" -d '{"name":"test", "email":"test@test.com", "reg_date":"2024-01-01"}' http://localhost:8080/users
 ```
+![image](https://github.com/CHOJUNGHO96/gin_gorm_crud_example_code/assets/61762674/63fbb141-f9f5-41ec-997c-7c3fc92058b0)
+
